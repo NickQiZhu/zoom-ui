@@ -1,5 +1,4 @@
 module.exports = function (grunt) {
-    // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         concat: {
@@ -47,5 +46,5 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-jshint');
 
     // Default task(s).
-    grunt.registerTask('default', ['jasmine', 'concat', 'uglify', 'jshint']);
+    grunt.registerTask('default', ['jasmine', 'jshint', 'concat', 'uglify']);
 };
