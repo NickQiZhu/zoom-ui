@@ -1,3 +1,3 @@
 var zui = {
-    version: '0.1.0'
+    version: '<%=pkg.version%>'
 };
