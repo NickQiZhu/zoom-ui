@@ -1,6 +1,7 @@
 # tmp files
 *.log
 *~
+build
 
 # local files
 node_modules
